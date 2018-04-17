@@ -1,7 +1,8 @@
 import webbrowser  # imports web browser controller
 
 
-# creates movie class
+# creates movie class. It contains the attributes common to all movie objects
+# and the method to open the trailer video in browser
 class Movie ():
     def __init__(self, movie_title,
                  movie_storyline, poster_image, trailer_youtube):
