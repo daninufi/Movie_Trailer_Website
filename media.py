@@ -26,12 +26,11 @@ Methods:
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-
     def play_trailer(self):
-            """Opens window on page playing movie trailer
+        """Print a message from the current person
 
     Args:
-        something (str): youtube url.
+        something (str): The message to print.
 
     Returns:
     None.
