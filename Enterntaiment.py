@@ -13,7 +13,8 @@ the_godfather = media.Movie("The God Father",
                             "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
                             "https://www.youtube.com/watch?v=sY1S34973zA")
 
-up = media.Movie("Up", "Carl sets out to fulfill his dream",
+up = media.Movie("Up",
+                 "Carl sets out to fulfill his dream"
                  " to see the wilds of South America",
                  "https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg",
                  "https://www.youtube.com/watch?v=pkqzFUhGPJg")
@@ -47,4 +48,3 @@ movies = [the_godfather, up, an_american_tale,
 
 # opens function with movie list to generate HTML
 fresh_tomatoes.open_movies_page(movies)
-
