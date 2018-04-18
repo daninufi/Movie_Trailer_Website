@@ -26,6 +26,14 @@ Methods:
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-# opens youtube trailer in browser
+
     def play_trailer(self):
+            """Opens window on page playing movie trailer
+
+    Args:
+        something (str): youtube url.
+
+    Returns:
+    None.
+    """
         webbrowser.open(self.trailer_youtube_url)
